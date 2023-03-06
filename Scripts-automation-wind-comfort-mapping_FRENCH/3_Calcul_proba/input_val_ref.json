@@ -1,0 +1,20 @@
+[{
+"#":"Amandine Conrad, Stagiaire Elioth, june 2021                                              #",
+"#":"------------------------------------------------------------------------------------------#",
+"#":"                         GET WEIBULL PARAMETERS - CASE INPUT FILE                         #",
+"#":"------------------------------------------------------------------------------------------#",
+"#":" Version 1 - june, 07, 2021                                                               #",
+"#":" * Necessary entries:                                                                     #",
+"#":"   o U_seuil // float // threshold speed value for the wind comfort calculation (m/s)     #",
+"#":"                                                                                          #",
+"#":" * o = obligatory // + = optional                                                         #",
+"#":"                                                                                          #",
+"#":" * Generalities:                                                                          #",
+"#":"   -To comment: create a dict entry with '#' key                                          #",
+"#":"   -All the entries are written as python dict and are separated by a comma               #",
+"#":"------------------------------------------------------------------------------------------#"},
+
+{
+	"U_seuil": 3.6
+}
+]

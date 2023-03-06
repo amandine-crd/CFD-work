@@ -1,0 +1,46 @@
+[{
+"#":"Amandine Conrad, Elioth, june 2021, based on the work of Arnaud Sanson, march 2020        #",
+"#":"------------------------------------------------------------------------------------------#",
+"#":"                         GET WEIBULL PARAMETERS - CASE INPUT FILE                         #",
+"#":"------------------------------------------------------------------------------------------#",
+"#":" Version 1 - june, 7, 2021                                                             #",
+"#":" * Necessary entries:                                                                     #",
+"#":"   o csvFile // string // name of the csv file                                            #",
+"#":"   o dataName // string // name of the data series                                        #",
+"#":"   + zeros // float // default value: 0.05 // Replacement value for the zeros. The        #",
+"#":"         does not bear the actual 0. 0.05 is a good value for wind speed data sets.       #",
+"#":"                       #",
+"#":"                                                                                          #",
+"#":" * o = obligatory // + = optional                                                         #",
+"#":"                                                                                          #",
+"#":" * Generalities:                                                                          #",
+"#":"   -To comment: create a dict entry with '#' key                                          #",
+"#":"   -All the entries are written as python dict and are separated by a comma               #",
+"#":"------------------------------------------------------------------------------------------#"},
+
+{
+	"name":"N",
+	"csvFile":"Wind_dir_speed_dir_45.0.csv",
+	"dataName": "Wind Speed {m/s}",
+	"zeros": 0.05
+},
+{
+	"name":"ESE",
+	"csvFile":"Wind_dir_speed_dir_135.0.csv",
+	"dataName": "Wind Speed {m/s}",
+	"zeros": 0.05
+},
+{
+	"name":"SSE",
+	"csvFile":"Wind_dir_speed_dir_225.0.csv",
+	"dataName": "Wind Speed {m/s}",
+	"zeros": 0.05
+},
+{
+	"name":"SSE",
+	"csvFile":"Wind_dir_speed_dir_315.0.csv",
+	"dataName": "Wind Speed {m/s}",
+	"zeros": 0.05
+}
+
+]

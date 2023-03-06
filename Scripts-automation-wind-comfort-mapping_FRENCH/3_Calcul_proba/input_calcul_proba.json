@@ -1,0 +1,36 @@
+[{
+"#":"Amandine Conrad, Stagiaire Elioth, june 2021                                              #",
+"#":"------------------------------------------------------------------------------------------#",
+"#":"                         GET WEIBULL PARAMETERS - CASE INPUT FILE                         #",
+"#":"------------------------------------------------------------------------------------------#",
+"#":" Version 1 - june, 07, 2021                                                               #",
+"#":" * Necessary entries:                                                                     #",
+"#":"   o number // float // number increasing by 1 with each csvFiles                         #",
+"#":"   o csvFile // string // name of the data series                                         #",
+"#":"                                                                                          #",
+"#":" * o = obligatory // + = optional                                                         #",
+"#":"                                                                                          #",
+"#":" * Generalities:                                                                          #",
+"#":"   -To comment: create a dict entry with '#' key                                          #",
+"#":"   -All the entries are written as python dict and are separated by a comma               #",
+"#":"------------------------------------------------------------------------------------------#"},
+
+{
+    "number" : 0,
+	"csvFile":"extrait_final_1.csv"
+},
+
+{
+    "number" : 1,
+	"csvFile":"extrait_final_2.csv"
+},
+
+{
+    "number" : 2,
+	"csvFile":"extrait_final_3.csv"
+},
+{
+    "number" : 3,
+	"csvFile":"extrait_final_4.csv"
+}
+]

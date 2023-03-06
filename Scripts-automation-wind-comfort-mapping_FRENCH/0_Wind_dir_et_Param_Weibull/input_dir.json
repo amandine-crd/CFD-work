@@ -1,0 +1,29 @@
+[{
+"#":"Amandine Conrad, Elioth, June 2021, WIND_DIRECTIONS                                       #",
+"#":"------------------------------------------------------------------------------------------#",
+"#":"                         DIVIDE WIND IN DIFFERENT DIRECTIONS - CASE INPUT FILE            #",
+"#":"------------------------------------------------------------------------------------------#",
+"#":" Version 1 - march, 20, 2020                                                              #",
+"#":" * Necessary entries:                                                                     #",
+"#":"   + csvFile // string // name of the csv file                                            #",
+"#":"   o nb_dir // float // number of divisions into the wind rose = number of directions     #",
+"#":"   o nom_epw // string // name of the csv file containing the wind directions and speeds  #",
+"#":"                           over a year                                                    #",
+"#":"   o path_csv_write // string // path to the folder where the output csv will be written  #",
+"#":"   o name_csv_write // string // general name for the output csv (multiple)               #",
+"#":"                                                                                          #",
+"#":" * o = obligatory // + = if an optional division is wanted                                #",
+"#":"                                                                                          #",
+"#":" * Generalities:                                                                          #",
+"#":"   -To comment: create a dict entry with '#' key                                          #",
+"#":"   -All the entries are written as python dict and are separated by a comma               #",
+"#":"------------------------------------------------------------------------------------------#"},
+
+{
+	"csv_div":"input_dir_vent.csv",
+	"nb_dir": 4,
+	"nom_epw": "Wind_dir_wind_speed.csv",
+	"path_csv_write": "D:/DATA/a.conrad/Documents/Professionnel/Wind_comfort/Codes/1_Wind_dir_et_Param_Weibull/Dossier_test/Dossier_write_csv",
+	"name_csv_write": "Wind_dir_speed"
+}
+]
